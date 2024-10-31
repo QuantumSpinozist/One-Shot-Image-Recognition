@@ -24,5 +24,7 @@ The net is shown image pairs (one for each siamese twin) and tasked to output 1 
 
 The implementations is written in PyTorch
 
-
-<img src="2_way_one_shot_barplot.png" width="500"/>
+<p float="left">
+    <img src="2_way_one_shot_barplot.png" width="45%" />
+    <img src="5_way_one_shot_barplot.png" width="45%" />
+</p>
