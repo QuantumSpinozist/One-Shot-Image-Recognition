@@ -38,8 +38,8 @@ def main():
                         help='learning rate (default: 1.0)')
     parser.add_argument('--gamma', type=float, default=0.5, metavar='M',
                         help='Learning rate step gamma (default: 0.5)')
-    parser.add_argument('--step-size', type=float, default=20, 
-                        help='Number of epochs after which lr is decreased (default: 20)')
+    parser.add_argument('--step-size', type=float, default=50, 
+                        help='Number of epochs after which lr is decreased (default: 50)')
     parser.add_argument('--no-cuda', action='store_true', default=False,
                         help='disables CUDA training')
     parser.add_argument('--no-mps', action='store_true', default=False,
