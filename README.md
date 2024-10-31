@@ -28,3 +28,13 @@ The implementations is written in PyTorch
     <img src="2_way_one_shot_barplot.png" width="45%" />
     <img src="5_way_one_shot_barplot.png" width="45%" />
 </p>
+
+<p float="left">
+    <img src="10_way_one_shot_barplot.png" width="45%" />
+    <img src="15_way_one_shot_barplot.png" width="45%" />
+</p>
+
+<img src="20_way_one_shot_barplot.png" width="45%" />
+
+
+
