@@ -1,7 +1,8 @@
 # Siamese Neural Networks for One-shot Image Recognition
 
 This is a PyTorch implementation of the paper "Siamese Neural Networks for One-shot Image Recognition" ([https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf))
-from 2015. I have not 
+from 2015. I have not recreated the MNIST One-Shot trials (section 4.4 in the paper) and my implementation also differs somewhat in some areas (mainly the training and hyperparameter optimization) which we will
+discuss in the implementation section.
 
 ## Overview
 
@@ -18,3 +19,10 @@ the similarity measure with the given image.
 
 The authors use a siamese network to learn the similarity. It consists of two versions of the same CNN whose outputs are combined via euclidean metric with a one layer classifier on top.
 The net is shown image pairs (one for each siamese twin) and tasked to output 1 if the images match (same character) and 0 if they do not.
+
+## Implementation
+
+The implementations is written in PyTorch
+
+
+<img src="2_way_one_shot_barplot.png" width="1000"/>
