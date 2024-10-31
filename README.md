@@ -25,16 +25,21 @@ The net is shown image pairs (one for each siamese twin) and tasked to output 1 
 The implementations is written in PyTorch
 
 <p float="left">
+    <img src="N_way_one_shot_accuracy_comparison.png" width="45%" />
     <img src="2_way_one_shot_barplot.png" width="45%" />
-    <img src="5_way_one_shot_barplot.png" width="45%" />
 </p>
 
 <p float="left">
+    <img src="5_way_one_shot_barplot.png" width="45%" />
     <img src="10_way_one_shot_barplot.png" width="45%" />
-    <img src="15_way_one_shot_barplot.png" width="45%" />
 </p>
 
-<img src="20_way_one_shot_barplot.png" width="45%" />
+<p float="left">
+    <img src="15_way_one_shot_barplot.png" width="45%" />
+    <img src="20_way_one_shot_barplot.png" width="45%" />
+</p>
+
+
 
 
 
