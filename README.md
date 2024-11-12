@@ -6,7 +6,7 @@ discuss in the implementation section.
 
 ## Overview
 
-I will provide a longer summary of the paper on my blog (LINK), this is just a quick rundown of the general ideas.
+I will provide a longer summary of the paper on my blog ([here](https://github.com/QuantumSpinozist/quantumspinozist.github.io/blob/main/paper_report_9.md)), this is just a quick rundown of the general ideas.
 
 This paper is an early study on metric learning for one shot image classification. Specifically we work with the Omniglot dataset, a collection of handwritten 
 characters from 50 different alphabets. The problem is as followed, we are given the data from a limited number of alphabets to train a model that is then tasked
