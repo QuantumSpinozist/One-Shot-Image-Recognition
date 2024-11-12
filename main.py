@@ -27,15 +27,15 @@ from src.train_test import train, test, create_N_way_plots
 
 
 def main():
-    parser = argparse.ArgumentParser(description='PyTorch Siamese network Example')
+    parser = argparse.ArgumentParser(description='Siamese Neural Networks for One-shot Image Recognition')
     parser.add_argument('--batch-size', type=int, default=64, metavar='N',
                         help='input batch size for training (default: 64)')
     parser.add_argument('--test-batch-size', type=int, default=2048, metavar='N',
                         help='input batch size for testing (default: 2048)')
     parser.add_argument('--epochs', type=int, default=300, metavar='N',
-                        help='number of epochs to train (default: 14)')
+                        help='number of epochs to train (default: 300)')
     parser.add_argument('--lr', type=float, default=0.05, metavar='LR',
-                        help='learning rate (default: 1.0)')
+                        help='learning rate (default: 0.05)')
     parser.add_argument('--gamma', type=float, default=0.5, metavar='M',
                         help='Learning rate step gamma (default: 0.5)')
     parser.add_argument('--step-size', type=float, default=50, 
