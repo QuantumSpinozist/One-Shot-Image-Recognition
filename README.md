@@ -79,12 +79,12 @@ has learned good features from training on the verification task, if it "has not
 To give a concrete example for a possible problem, deep learning models right after training famously tend to be miscalibrated (overconfident even for difficult samples).
 If one out of our one shot examples is wrongly matched by a well calibrated model (similarity >0.5$ but significantly smaller than $1$) while the correct example is also matched,
 the sample will still be classified correctly, since we only care about the highest score.
-If we now imagine the same for an overonfident model, even one mismatch might lead to a classification error. This problem gets exponentially worse as we increase the number of classes.
+If we now imagine the same for an overconfident model, even one mismatch might lead to a classification error. This problem gets exponentially worse as we increase the number of classes.
 
 I have found a different reimplementation of the paper by asagar60 ([https://github.com/asagar60/Siamese-Neural-Networks-for-One-shot-Image-Recognition](https://github.com/asagar60/Siamese-Neural-Networks-for-One-shot-Image-Recognition))
 who has also not implemented the hyperparameter optimization and achieves similar one shot performances.
 
-I might add some of the missing aspects reported in the paper in the future, or otherwise extend this project, in which case I will extend
+I might add some of the missing aspects reported in the paper in the future, or otherwise extend this project, in which case I will extend this
 discussion accordingly.
 
 
